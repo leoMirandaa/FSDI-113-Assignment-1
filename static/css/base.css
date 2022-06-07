@@ -56,6 +56,11 @@ img {
   background: gray;
 }
 
+.item-card {
+  color: black;
+  text-decoration: none !important;
+}
+
 .btn-add {
   background: orange;
 }

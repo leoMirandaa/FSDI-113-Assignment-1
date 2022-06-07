@@ -7,15 +7,14 @@
 
 <div class="card form-container" style="width: 50%;">
   <div class="card-body">
-    <form method="POST">
+    <form method="POST" class="mb-2">
       {% csrf_token %}
       {{ form.as_p}}
-      <input type="submit" class="btn btn-success" value="Log In">
+      <input type="submit" class="btn btn-add" value="Log In">
     </form>
 
-    <small>Don't have an account yet? Clickhere to sign up! <a href="{% url 'signup' %}">here</a>to sign up!</small>
+    <small>Don't have an account yet? Clickhere to sign up! <a href="{% url 'signup' %}">here</a> to sign up!</small>
   </div>
 </div>
-
 
 {% endblock content %}
