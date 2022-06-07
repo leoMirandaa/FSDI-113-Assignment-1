@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+  color: yellow;
+  margin-bottom: 1rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5.5rem;
+}
+
+body {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+  background: linear-gradient(to right, #8f94fb, #4e54c8);
+
+  color: white;
+  background-image: url(../img/bg.webp);
+  background-position: center center;
+  background-size:  cover;
+}
+
+img {
+  opacity: 0.6;
+}
+
+.subtitle-main {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.main-container {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-style {
+  background: black !important;
+  border: dashed 2px yellow;
+}
+
+.detail-container {
+  background: #000;
+  padding: 1rem;
+  border-radius: 20px;
+  border: dashed 2px yellow;
+}
+
+.btn-edit {
+  background: rgb(168, 168, 15);
+}
+
+.btn-delete {
+  background: gray;
+}
+
+.btn-add {
+  background: orange;
+}
+
+.form-container {
+  background: #000;
+  border: dashed 2px yellow;
+}
+
+.main-animation {
+  animation: .7s ease alternate infinite;
+  animation-name: grow;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

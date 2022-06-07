@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}New Post{% endblock title %}
+
+{% block content %}
+<h1>New Post</h1>
+
+
+<div class="card form-container" style="width: 40%;">
+  <div class="card-body">
+    <form method="POST">
+      {% csrf_token %}
+      {{ form.as_p}}
+      <input type="submit" value="Create" class="btn btn-add">
+    </form>
+  </div>
+</div>
+{% endblock content %}
+
+<!-- {# csrf_toke jinja directive#}
+{# form.as_p atribute as_p each paragraph a label and input field#} -->

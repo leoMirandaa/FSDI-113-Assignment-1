@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %} Delete {{ post.title }} {% endblock title %}
+
+{% block content %}
+  <h1>Delete Post</h1>
+
+  <div class="card mb-3 text-bg-dark card-style"  style="width: 40%;">
+    <div class="card-body">
+      <p>Are you sure you want to delete "{{ post.title }}"? </p>
+      <strong>This action is irreversible!</strong>
+
+      <form action="POST">
+        {% csrf_token %}
+        <input type="submit" value="Confirm" class="btn btn-danger mt-3">
+      </form>
+    </div>
+  </div>
+{% endblock content %}
