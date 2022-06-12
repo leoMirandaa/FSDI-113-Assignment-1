@@ -6,7 +6,7 @@
 ## Heroku Link
 https://still-dusk-43891.herokuapp.com/
 
-![112 Competency report](https://user-images.githubusercontent.com/61714687/172328898-d5e21930-91e5-4bbd-8076-5c9cd3714f51.JPG)
+![image](https://user-images.githubusercontent.com/61714687/173221710-cbe01071-c4a3-40ef-9605-53c053f55cae.png)
 
 ![image](https://user-images.githubusercontent.com/61714687/173221608-0ab3be79-377e-4d4e-b414-6628d24aae3b.png)
 
