@@ -1,4 +1,4 @@
-# FSDI 111 Competency Report
+# FSDI 113 Assignment 1
 ## Report View:
 
 1. Create a blog that allows multiple users to create, view, update and delete blog posts. Blog posts can be viewed in both a list view as well as single article view..
