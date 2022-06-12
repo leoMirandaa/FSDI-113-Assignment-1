@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Not Found!{% endblock title %}
+
+{% block content %}
+<h1>404</h1>
+<h2>Not Found</h2>
+
+<div class="card mb-3 text-bg-dark card-style"  style="width: 40%;">
+  <div class="card-body">
+    <h4>You probably took a wrong turn somewhere and ended up here.</h4>
+    <a href="{% url 'post_list' %">Click here</a> to go back to your post
+  </div>
+</div>
+
+{% endblock content %}

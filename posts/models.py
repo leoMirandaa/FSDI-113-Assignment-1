@@ -6,8 +6,9 @@ from django.urls import reverse
 class Post(models.Model):
   title = models.CharField(max_length=255)
   body = models.TextField()
-  created_on = models.DateTimeField(auto_now_add=True)
   author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+  created_on = models.DateTimeField(auto_now_add=True)
+  is_private = models.BooleanField(default=1)
 
   def __str__(self):
     return self.title
